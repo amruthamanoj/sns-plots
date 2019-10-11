@@ -1,0 +1,4 @@
+import matplotlib.pyplot as plt
+plt.figure(figsize = (10,10), facecolor = "pink")
+sns.distplot(np.random.poisson(5,100), bins = 40, kde = True, rug = True);
+plt.text(0.2,0.4,"poisson")
