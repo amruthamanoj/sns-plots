@@ -1,0 +1,5 @@
+sns.distplot(np.random.normal(5,100,10000), bins = 40, kde = True, rug = True);
+plt.text(-1,0.0045,"Normal")
+plt.xlabel("x axis")
+plt.ylabel("y axis")
+plt.grid(color = 'blue')
