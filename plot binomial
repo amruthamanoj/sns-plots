@@ -1,0 +1,5 @@
+sns.distplot(np.random.binomial(20,0.7,1000), bins = 40, kde = True, rug = True, color = 'red');
+plt.text(14,0.7,"Binomial")
+plt.xlabel("x axis")
+plt.ylabel("y axis")
+plt.grid(color = 'black')
